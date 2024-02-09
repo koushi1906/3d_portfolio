@@ -175,7 +175,7 @@ export const experiences = [
         company_name: "InfoDat Inc",
         icon: starbucks,
         iconBg: "#accbe1",
-        date: "July 2023 - Present",
+        date: "May 2022 - Present",
         points: [
             "Optimized Microsoft Outlook CRM UI with Yeoman-generated dashboard, task pane, achieving 100% workflow integration improvement.",
             "Utilized React JS, React Hooks, React Routing, Redux Toolkit for efficient data management, resulting improved website engagement, reduced performance overhead by 15%.",
@@ -185,22 +185,7 @@ export const experiences = [
         ],
     },
     {
-        title: "Software Developer Intern",
-        company_name: "Infodat Inc",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "May 2022 - July 2023",
-        points: [
-            "Developed responsive UI components, layouts using React, ensuring optimal performance across diverse range of devices, screen sizes.",
-            "Enhanced website loading speed by 40% through code optimization, image compression, resulting 15% decrease in bounce rate.",
-            "Configured Spring Security for varied resource access permissions, integrated OAuth 2 Single Sign-On (SSO) for seamless social login via Google and Facebook, leading 25% enhancement in security.",
-            "Established RESTful APIs with Spring, leveraging Spring Data REST for seamless component communication, integrated Spring Data MongoDB with Spring Hibernate, yielding 20% improvement in data retrieval, persistence efficiency within NoSQL MongoDB environment.",
-
-
-        ],
-    },
-    {
-        title: "Software Developer",
+        title: "Associate Software Engineer",
         company_name: "C3 Solutions",
         icon: meta,
         iconBg: "#a2d2ff",
@@ -211,6 +196,19 @@ export const experiences = [
             "Utilized version control systems such as Git, platforms like GitHub, GitLab to track changes, manage code repositories, resulting 25% increase in team productivity.",
             "Proven versatility in diverse work environments, swiftly adjusting to changes, actively pursuing continuous learning, enhancing task efficiency."
 
+        ],
+    },
+    {
+        title: "Front end developer",
+        company_name: "Systech Technologies",
+        icon: tesla,
+        iconBg: "#fbc3bc",
+        date: "June 2018 - Jan 2020",
+        points: [
+            "Implemented custom hooks using React building reusable components for various features such as itinerary form creation, modification and sharing functionalities, managed state using GraphQl.",
+            "Enhanced website loading speed by 40% through code optimization, image compression, resulting 15% decrease in bounce rate.",
+            "Proficient in utilizing Jest for unit testing, employing a test-driven development(TDD) approach ensuring code reliability.",
+            "Maintained commitment to continuous learning and adaptation in the dynamic field of web development.",
         ],
     },
 ];
