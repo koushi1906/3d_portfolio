@@ -177,11 +177,20 @@ export const experiences = [
         iconBg: "#accbe1",
         date: "May 2022 - Present",
         points: [
-            "Optimized Microsoft Outlook CRM UI with Yeoman-generated dashboard, task pane, achieving 100% workflow integration improvement.",
-            "Utilized React JS, React Hooks, React Routing, Redux Toolkit for efficient data management, resulting improved website engagement, reduced performance overhead by 15%.",
-            "Implemented Maven, Docker for continuous build integration, leading to 25% reduction in deployment errors, significantly improving reliability, stability of development process.",
-            "Designed and deployed robust REST APIs using Java, Node Js, Spring Boot, contributing to 30% enhancement in application performance.",
-            "Applied agile methodologies to enhance team productivity, leading to 20% reduction in development cycle time, 10% increase in feature quality."
+            `Spearheaded a 7 member team, facilitating sprint planning, code reviews, brainstorming sessions in automating user
+            rating process by developing end-to-end web application contributing to a 25% increase in projected sales growth`,
+            `Engineered responsive taskpane user interface (UI) of SaaS based industrial sales CRM serving 5000+ active users,
+            lowered average login time from 30 to 10 sec integrating Single sign-on (SSO) with MSAL for seamless access to
+            Microsoft Graph API significantly improving user experience (UX) across the platform`,
+            `Transformed project styling by seamlessly integrating Tailwind CSS, Sass, yielding a 30% increase in development
+            eﬀiciency through custom themes for unique design expressions`,
+            `Orchestrated Microservice architecture to construct independent components utilizing Spring Framework, Java 17`,
+            `Streamlined CRUD operations within a React-based application by optimizing bulk data insertions through
+            GraphQL mutations ensuring 33% increase in API response time for data manipulation of admin dashboard`,
+            `Leveraged Azure Devops and Git for version control to optimize collaboration and eﬀiciency, resulting in a 20%
+            increase in team productivity.`,
+            `Collaborated with cross-functional teams including UX designers, Product Managers, QA Tester’s, to craft innovative
+            system design and development solutions catering diverse business needs following Agile Methodology`
         ],
     },
     {
@@ -191,24 +200,15 @@ export const experiences = [
         iconBg: "#a2d2ff",
         date: "Jan 2020 - Dec 2021",
         points: [
-            "Showcased proficiency in creating, maintaining REST APIs and microservices to streamline data exchange between applications using Java, Spring, Spring Boot.",
-            "Optimized database queries and implemented caching mechanisms, resulting 50% decrease in database response time, significantly improved system performance.",
-            "Utilized version control systems such as Git, platforms like GitHub, GitLab to track changes, manage code repositories, resulting 25% increase in team productivity.",
-            "Proven versatility in diverse work environments, swiftly adjusting to changes, actively pursuing continuous learning, enhancing task efficiency."
+            `Elevated page loading speed by 15% upgrading a cross-browser compatible Angular solution from version 12 to 14`,
+            `Translated MVC architected web codebase to layered architecture leveraging Spring Boot creating 50+ robust
+            RESTful API’s for payment processing improving scalability & security`,
+            `Engineered Dockerfile configurations to streamline the containerization process, slashing build time by 50%`,
+            `Managed a complex bug fix initiative, successfully identifying and resolving intermittent crashes in a critical appli-
+            cation, resulting in an 80% reduction in crash occurrences within the first week after implementation,
+            `,
+            `Embraced Test-Driven Deployment(TDD) methodology, crafting unit test cases using Junit, Jest`
 
-        ],
-    },
-    {
-        title: "Front end developer",
-        company_name: "Systech Technologies",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "June 2018 - Jan 2020",
-        points: [
-            "Implemented custom hooks using React building reusable components for various features such as itinerary form creation, modification and sharing functionalities, managed state using GraphQl.",
-            "Enhanced website loading speed by 40% through code optimization, image compression, resulting 15% decrease in bounce rate.",
-            "Proficient in utilizing Jest for unit testing, employing a test-driven development(TDD) approach ensuring code reliability.",
-            "Maintained commitment to continuous learning and adaptation in the dynamic field of web development.",
         ],
     },
 ];
