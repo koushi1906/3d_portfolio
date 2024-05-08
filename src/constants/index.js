@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, cardinal, tesla } from "../assets/images";
 import {
     angular,
     aws,
@@ -171,43 +171,33 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "Full Stack Developer",
-        company_name: "InfoDat Inc",
-        icon: starbucks,
-        iconBg: "#accbe1",
+        title: "UI Developer",
+        company_name: "Cardinal Health",
+        icon: cardinal,
+        iconBg: "white",
         date: "May 2022 - Present",
         points: [
-            `Spearheaded a 7 member team, facilitating sprint planning, code reviews, brainstorming sessions in automating user
-            rating process by developing end-to-end web application contributing to a 25% increase in projected sales growth`,
-            `Engineered responsive taskpane user interface (UI) of SaaS based industrial sales CRM serving 5000+ active users,
-            lowered average login time from 30 to 10 sec integrating Single sign-on (SSO) with MSAL for seamless access to
-            Microsoft Graph API significantly improving user experience (UX) across the platform`,
-            `Transformed project styling by seamlessly integrating Tailwind CSS, Sass, yielding a 30% increase in development
-            eﬀiciency through custom themes for unique design expressions`,
-            `Orchestrated Microservice architecture to construct independent components utilizing Spring Framework, Java 17`,
-            `Streamlined CRUD operations within a React-based application by optimizing bulk data insertions through
-            GraphQL mutations ensuring 33% increase in API response time for data manipulation of admin dashboard`,
-            `Leveraged Azure Devops and Git for version control to optimize collaboration and eﬀiciency, resulting in a 20%
-            increase in team productivity.`,
-            `Collaborated with cross-functional teams including UX designers, Product Managers, QA Tester’s, to craft innovative
-            system design and development solutions catering diverse business needs following Agile Methodology`
+            `Empowered efficient ordering via reusable UI component library (Atomic Design, Story Book) populated by Strapi for Ordering Portal using Service Oriented Architecture (SOA), boosting 25% component reusability `,
+            `Spearheaded development of Apollo Client service, migrating HTTP requests to GraphQL calls. This facilitated interaction with multiple microservices and resulted in a 30% reduction in page load time}`,
+            `Boosted user experience by optimizing data access for 100k+ patient MongoDB model with indexing, partitioning, & query refinement, resulting in faster data access for filtering, pagination, and searches`,
+            `Drove development of accurate patient order filtering with TDD and Jest, reducing filtering errors by 90%`,
+            `Agile development: Championed user needs in Agile ceremonies (standups, sprint planning) by collaborating with cross-functional teams to translate wireframes/mockups into user stories`,
         ],
     },
     {
-        title: "Associate Software Engineer",
-        company_name: "C3 Solutions",
+        title: "Front End Developer",
+        company_name: "Infodat Inc",
         icon: meta,
-        iconBg: "#a2d2ff",
+        iconBg: "white",
         date: "Jan 2020 - Dec 2021",
         points: [
-            `Elevated page loading speed by 15% upgrading a cross-browser compatible Angular solution from version 12 to 14`,
-            `Translated MVC architected web codebase to layered architecture leveraging Spring Boot creating 50+ robust
-            RESTful API’s for payment processing improving scalability & security`,
-            `Engineered Dockerfile configurations to streamline the containerization process, slashing build time by 50%`,
+            `Automated user rating process by developing a responsive Single-page Application (SPA) using React & Redux, integrated within an enterprise application. This resulted in driving 25% increase in projected sales growth`,
+            `Streamlined user sign-in by implementing Single Sign-On (SSO) using Microsoft Authentication Library ( MSAL) and OAuth, achieving a 66% reduction in average sign-in time (from 30 seconds to 10 seconds)`,
+            `Developed a Reusable Data Fetching Pattern with Axios & React Hooks for High-Volume Backend Communication, mastered Docker, Network protocols, design patterns expanding skill set by 50%`,
             `Managed a complex bug fix initiative, successfully identifying and resolving intermittent crashes in a critical appli-
             cation, resulting in an 80% reduction in crash occurrences within the first week after implementation,
             `,
-            `Embraced Test-Driven Deployment(TDD) methodology, crafting unit test cases using Junit, Jest`
+            ` Azure DevOps & Git: Utilized Azure DevOps for managing user stories, facilitating code reviews with Git integration, and streamlining CI/CD pipeline`
 
         ],
     },

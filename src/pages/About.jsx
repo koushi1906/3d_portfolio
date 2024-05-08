@@ -35,7 +35,9 @@ const About = () => {
     <div className="mnt-12 flex">
         <VerticalTimeline>
           {experiences.map((exp) => (
-            <VerticalTimelineElement key={exp.company_name} date={exp.date} contentStyle={{borderBottom: '8px', borderStyle:'solid', borderBottomColor:exp.iconBg, boxShadow:'none'}}>
+            <VerticalTimelineElement key={exp.company_name} date={exp.date} icon={<div className="flex justify-center items-center w-full h-full">
+              <img src={exp.icon} alt={exp.title} className="w-[60%] h-[60%] object-contain" />
+            </div>} iconStyle={{background: exp.iconBg}} contentStyle={{borderBottom: '8px', borderStyle:'solid', borderBottomColor:exp.iconBg, boxShadow:'none'}}>
               <div className="">
                 <h3 className="text-black text-xl font-poppins font-semibold">
                   {exp.title}
