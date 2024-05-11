@@ -171,21 +171,26 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "UI Developer",
+        title: "Software Developer",
         company_name: "Cardinal Health",
         icon: cardinal,
         iconBg: "white",
         date: "May 2022 - Present",
         points: [
-            `Empowered efficient ordering via reusable UI component library (Atomic Design, Story Book) populated by Strapi for Ordering Portal using Service Oriented Architecture (SOA), boosting 25% component reusability `,
-            `Spearheaded development of Apollo Client service, migrating HTTP requests to GraphQL calls. This facilitated interaction with multiple microservices and resulted in a 30% reduction in page load time}`,
-            `Boosted user experience by optimizing data access for 100k+ patient MongoDB model with indexing, partitioning, & query refinement, resulting in faster data access for filtering, pagination, and searches`,
-            `Drove development of accurate patient order filtering with TDD and Jest, reducing filtering errors by 90%`,
-            `Agile development: Championed user needs in Agile ceremonies (standups, sprint planning) by collaborating with cross-functional teams to translate wireframes/mockups into user stories`,
+            `Spearheaded cross functional teams to architect and integrate Ordering Replacement Portal microservice using
+            Java 17 & Spring Boot, enhancing 20% scalability of Sonexus™ streamlining medication restocking for providers`,
+            `Empowered efficient ordering via reusable UI component library (Atomic Design, Story Book) populated by Strapi
+            for Ordering Portal using Service Oriented Architecture (SOA), boosting 25% component reusability`,
+            `Architected secure RESTful APIs with Okta authentication. Developed real-time search Lambda function for
+            100k+ patient PostgreSQL model, achieving 20% faster data retrieval for efficient, secure patient record access`,
+            `Implemented Splunk for log writing and user click monitoring, ingested JSON data and server-side enrichment to
+            analyze user behavior patterns. Drove development of accurate patient order filtering with TDD and Jest`,
+            `Agile development: Championed user needs in Agile ceremonies (standups, sprint planning) by collaborating
+            with cross-functional teams to translate wireframes/mockups into user stories`
         ],
     },
     {
-        title: "Front End Developer",
+        title: "Software Developer",
         company_name: "Infodat Inc",
         icon: meta,
         iconBg: "white",
@@ -197,6 +202,9 @@ export const experiences = [
             `Managed a complex bug fix initiative, successfully identifying and resolving intermittent crashes in a critical appli-
             cation, resulting in an 80% reduction in crash occurrences within the first week after implementation,
             `,
+            `Pioneered containerization of Node.js application by configuring Docker images, automated CI/CD pipelines with
+            Terraform files and YAML configuration in Azure DevOps reducing deployment time by 20%. Additionally, this
+            initiative helped eliminate $10k in unnecessary costs`,
             ` Azure DevOps & Git: Utilized Azure DevOps for managing user stories, facilitating code reviews with Git integration, and streamlining CI/CD pipeline`
 
         ],
