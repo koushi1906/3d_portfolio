@@ -178,7 +178,7 @@ export const experiences = [
         date: "May 2022 - Present",
         points: [
             `Spearheaded cross functional teams to architect and integrate Ordering Replacement Portal microservice using
-            C# & .Net Core, enhancing 20% scalability of Sonexus™ streamlining medication restocking for providers`,
+            Java 17 & Spring Boot, enhancing 20% scalability of Sonexus™ streamlining medication restocking for providers`,
             `Empowered efficient ordering via reusable UI component library (Atomic Design, Story Book) populated by Strapi
             for Ordering Portal using Service Oriented Architecture (SOA), boosting 25% component reusability`,
             `Architected secure RESTful APIs with Okta authentication. Developed real-time search Lambda function for
